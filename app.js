@@ -7,6 +7,7 @@ const config = require('./public/config/globals');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const calendarRoutes = require('./routes/calendar');
+const mongoose = require('mongoose');
 
 
 var app = express();
